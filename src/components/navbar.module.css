@@ -1,0 +1,70 @@
+/* Body dark mode styling */
+body.darkMode {
+	background-color: #1a202c;
+	color: #edf2f7;
+}
+
+/* Navbar container styling */
+.navbarContainer {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding: 0 16px;
+}
+
+/* Navbar styling */
+.navbar {
+	max-width: 1140px;
+	width: 100%;
+	height: 64px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+/* Navbar title styling */
+.navbarTitle {
+	font-size: 28px;
+	font-weight: bold;
+	text-transform: uppercase;
+	background: linear-gradient(90deg, #00bcd4, #3b82f6);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-align: center;
+}
+
+/* Navbar actions styling */
+.navbarActions {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+/* Button styling */
+.iconButton {
+	border: none;
+	background: none;
+	cursor: pointer;
+	font-size: 18px;
+	padding: 8px;
+	border-radius: 50%;
+	transition: background-color 0.3s ease;
+}
+
+.iconButton.darkMkode {
+	background-color: #FFFFFF;
+}
+
+/* Icon button hover effect */
+.iconButton:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Plus icon styling */
+.plusIcon {
+	font-size: 20px;
+	display: inline-block;
+}
+

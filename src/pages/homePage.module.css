@@ -1,0 +1,63 @@
+/* Container styling */
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 24px;
+}
+
+/* Vertical stack styling */
+.vStack {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 32px;
+}
+
+/* Page title styling */
+.pageTitle {
+	font-size: 30px;
+	font-weight: bold;
+	background: linear-gradient(to right, #00bcd4, #3b82f6);
+	background-clip: text;
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-align: center;
+}
+
+/* Grid styling */
+.grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 40px;
+	width: 100%;
+}
+
+@media (min-width: 768px) {
+	.grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (min-width: 1024px) {
+	.grid {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+/* No products message styling */
+.noProductsText {
+	font-size: 20px;
+	font-weight: bold;
+	color: #718096;
+	text-align: center;
+}
+
+/* Link styling */
+.createLink {
+	color: #3b82f6;
+	text-decoration: none;
+}
+
+.createLink:hover {
+	text-decoration: underline;
+}

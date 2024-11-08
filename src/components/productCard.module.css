@@ -1,0 +1,129 @@
+
+.card {
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	transition: all 0.3s;
+}
+
+.card:hover {
+	transform: translateY(-5px);
+	box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.cardImage {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+}
+
+.cardBody {
+	padding: 16px;
+}
+
+.cardTitle {
+	font-size: 1.25rem;
+	margin-bottom: 8px;
+}
+
+.cardPrice {
+	font-size: 1.1rem;
+	font-weight: bold;
+	color: #4a5568;
+	margin-bottom: 16px;
+}
+
+.cardButtons {
+	display: flex;
+	gap: 8px;
+}
+
+.editButton {
+	background-color: #4299e1;
+	color: #fff;
+	padding: 8px 12px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.deleteButton {
+	background-color: #e53e3e;
+	color: #fff;
+	padding: 8px 12px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+
+.modalOverlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 10;
+}
+
+.modal {
+	background: #fff;
+	padding: 24px;
+	border-radius: 8px;
+	width: 100%;
+	max-width: 500px;
+	position: relative;
+}
+
+.modal h2 {
+	margin: 0;
+	margin-bottom: 16px;
+}
+
+.modalBody input {
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 12px;
+	border: 1px solid #e2e8f0;
+	border-radius: 4px;
+}
+
+.modalClose {
+	position: absolute;
+	top: 8px;
+	right: 8px;
+	background: transparent;
+	border: none;
+	font-size: 24px;
+	cursor: pointer;
+	color: #4a5568;
+}
+
+.modalFooter {
+	display: flex;
+	justify-content: flex-end;
+	gap: 8px;
+}
+
+.updateButton {
+	background-color: #4299e1;
+	color: #fff;
+	padding: 8px 16px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.cancelButton {
+	background-color: #edf2f7;
+	color: #4a5568;
+	padding: 8px 16px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
